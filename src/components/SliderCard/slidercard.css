@@ -1,0 +1,98 @@
+.homeSlide {
+    background-color: white;
+}
+
+.homeSlide .box {
+    margin-top: 80px;
+    padding: 0 40px 60px;
+}
+
+.homeSlide h1 {
+    font-size: 50px;
+    line-height: 55px;
+    margin: 50px 0 20px 0;
+    color: rgb(179, 132, 143);
+}
+
+.homeSlide p {
+    margin: 20px 0;
+    font-weight: 300;
+}
+
+.homeSlide ul {
+    position: absolute;
+    bottom: 20px;
+}
+
+.homeSlide ul li {
+    border: 2px solid #b8b7b7;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.btn-primary {
+    background: #ecc5c5;
+    color: #795a5a;
+    padding: 10px 30px;
+    border-radius: 0.25rem;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s, -webkit-box-shadow 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #b3848f;
+    color: #f0e0e0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.homeSlide ul li button::before {
+    font-size: 15px !important;
+    color: #CEEBE9;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    margin: auto;
+}
+
+.homeSlide .box img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .homeSlide h1 {
+        font-size: 30px;
+        line-height: 35px;
+        margin: 20px 0;
+    }
+
+    .homeSlide .box {
+        padding: 20px;
+    }
+
+    .homeSlide p {
+        font-size: 16px;
+    }
+
+    .homeSlide .box img {
+        order: 1;
+        margin-bottom: 20px;
+        max-height: 200px;
+    }
+
+    .homeSlide .text-section {
+        order: 2;
+    }
+
+    .homeSlide ul {
+        position: relative;
+        bottom: auto;
+        margin-top: 20px;
+    }
+
+    .btn-primary {
+        padding: 8px 20px;
+        width: 100%;
+    }
+}

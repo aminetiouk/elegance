@@ -1,0 +1,94 @@
+.dashboard {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50%;
+    /* Set width of the div */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    /* Add space below this div */
+}
+
+.add-product h2 {
+    margin-bottom: 20px;
+}
+
+.add-product input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 70%;
+    /* Smaller width for inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-product label {
+    margin-bottom: 20px;
+    /* Add space between the upload icon and the button */
+    cursor: pointer;
+}
+
+.add-product button {
+    background-color: #ECC5C5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-product button:hover {
+    background-color: #D18E8E;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-table th {
+    background-color: #f2f2f2;
+}
+
+.product-table button {
+    margin: 0 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-table button:hover {
+    background-color: #0056b3;
+}
+
+.product-table button:nth-child(2) {
+    background-color: #dc3545;
+}
+
+.product-table button:nth-child(2):hover {
+    background-color: #c82333;
+}
