@@ -1,4 +1,4 @@
-# ElegenceHUB E-commerce Website
+# EleganceHUB E-commerce Website
 
 ## Peer
 amine tiouk <tiouk.amine@gmail.com>
