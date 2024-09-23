@@ -5,16 +5,16 @@ const FooterSection = () => {
   return (
     <footer className="footer">
       <div className="social-icons">
-        <a href="https://www.facebook.com" aria-label="Facebook" target="_blank" className="icon">
+        <a href="https://www.facebook.com" aria-label="Facebook" target="_blank" className="icon" rel="noreferrer">
           <i className="fab fa-facebook-f"></i>
         </a>
-        <a href="https://www.instagram.com" aria-label="Instagram" target="_blank" className="icon">
+        <a href="https://www.instagram.com" aria-label="Instagram" target="_blank" className="icon" rel="noreferrer">
           <i className="fab fa-instagram"></i>
         </a>
-        <a href="https://www.twitter.com" aria-label="Twitter" target="_blank" className="icon">
+        <a href="https://www.twitter.com" aria-label="Twitter" target="_blank" className="icon" rel="noreferrer">
           <i className="fab fa-twitter"></i>
         </a>
-        <a href="https://www.tiktok.com" aria-label="TikTok" target="_blank" className="icon">
+        <a href="https://www.tiktok.com" aria-label="TikTok" target="_blank" className="icon" rel="noreferrer">
           <i className="fab fa-tiktok"></i>
         </a>
       </div>

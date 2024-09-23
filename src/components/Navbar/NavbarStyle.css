@@ -183,3 +183,7 @@
   }
   
 }
+
+.nav-link-label:hover, .logo:hover {
+  color:#8d7676
+}

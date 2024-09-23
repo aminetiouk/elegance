@@ -5,9 +5,10 @@ import NavBarSection  from "./components/Navbar/Navbar";
 import FooterSection from "./components/Footer/Footer";
 import Loader from "./components/Loader/Loader";
 import LoginPage from "./pages/LoginPage";
+import Contact from "./components/Contact/Contact";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import "./app.css"
+import "./index.css"
 const Home = lazy(() => import("./pages/Home"));
 const Shop = lazy(() => import("./pages/Shop"));
 const Cart = lazy(() => import("./pages/Cart"));
@@ -37,6 +38,7 @@ function App() {
           <Route path="/shop/:id" element={<Product />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <FooterSection />
       </Router>

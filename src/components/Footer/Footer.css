@@ -70,3 +70,7 @@
     margin: 0 5px;
   }
 }
+
+.social-icons:hover, .icon:hover {
+  color: #8d7676;
+}

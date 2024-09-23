@@ -6,16 +6,16 @@ import { getAuth } from 'firebase/auth';
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyBZltj_9uZl4zI4JL3qjDddIJxG0jfBu8k",
-    authDomain: "elegence-hub.firebaseapp.com",
-    projectId: "elegence-hub",
-    storageBucket: "elegence-hub.appspot.com",
-    messagingSenderId: "909159395763",
-    appId: "1:909159395763:web:6620d3678084a7c0741bc6",
-    measurementId: "G-4QBV0ZXF03"
+  apiKey: 'AIzaSyB4Sb2j3_l0ZxT4oIngBiF7VQELOVBGgPY',
+  authDomain: 'elegancehub-cd95a.firebaseapp.com',
+  projectId: 'elegancehub-cd95a',
+  storageBucket: 'elegancehub-cd95a.appspot.com',
+  messagingSenderId: '790027733042',
+  appId: '1:790027733042:web:9b303f0b64ecabcf28542b',
+  measurementId: 'G-ZMQMNH8X4X',
 };
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 
-export { auth };
+export { app ,auth };

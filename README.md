@@ -2,7 +2,6 @@
 
 ## Peer
 amine tiouk <tiouk.amine@gmail.com>
-soukaina nachib <soukaina.nachib23@gmail.com>
 
 ## Features
 

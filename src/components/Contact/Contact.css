@@ -1,0 +1,83 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form-contact {
+  max-width: 600px;
+  width: 100%;
+  padding: 25px 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 25px;
+}
+
+.form-contact h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.input-box {
+  margin-top: 20px;
+  width: 100%; /* Ensure the input-box takes full width */
+}
+
+.input-box label {
+  display: block; /* Make label a block element */
+  font-size: 16px;
+  margin-bottom: 5px; /* Add space between label and input */
+}
+
+.input-box .field {
+  width: 100%; /* Field takes full width */
+  height: 50px;
+  border: 1px solid #b3848f;
+  outline: none;
+  border-radius: 6px;
+  padding: 15px;
+  font-size: 16px;
+  margin-top: 8px;
+  background: transparent;
+}
+
+.input-box .msg {
+  border: #b3848f 1px solid;
+  border-radius: 6px;
+  height: 200px;
+  resize: none;
+}
+
+button[type='submit'] {
+  margin-top: 20px;
+  width: 100%; /* Make button full width */
+  height: 50px;
+  background-color: #b3848f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button[type='submit']:hover {
+  background-color: #a36e79;
+  transition: background .3s, color .3s, box-shadow .2s, -webkit-box-shadow .2s;
+}
+
+.input-box .field:focus {
+  border: #a36e79 solid 2px;
+}
+
+.style-swal {
+  background-color: #b3848f;
+  color: white;
+  border-radius: 6px;
+  padding: 10px 20px;
+  border: none;
+}
+
+.style-swal:hover {
+  background-color: #a36e79;
+}
