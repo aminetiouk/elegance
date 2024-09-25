@@ -1,0 +1,147 @@
+/* checkout-style.css */
+
+.checkout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 8px;
+  border: #b3848f 0.5px solid;
+  margin: auto;
+}
+
+.checkout h2 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #b3848f;
+}
+
+.checkout .form-group {
+  margin-bottom: 15px;
+}
+
+.checkout .form-control {
+  border-radius: 5px;
+  border: 1px solid #b3848f;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.checkout .form-control:focus {
+  border-color: #e7bfce;
+  box-shadow: none;
+}
+.place-order-btn {
+  background-color: #b3848f;
+  color: #fff;
+  border: 1px solid #b3848f; 
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  width: 100%;
+}
+
+.place-order-btn:hover {
+  background-color: #fad0da;
+  color: #fff;
+}
+
+.place-order-btn:focus, .place-order-btn:active {
+  background-color: #b3848f;
+  color: #fff;
+  outline: none;
+  box-shadow: none;
+}
+
+.order-summary {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  border: #b3848f 0.5px solid;
+  margin-top: 20px;
+}
+
+.order-summary h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.order-summary ul {
+  list-style: none;
+  padding: 0;
+}
+
+.order-summary li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.order-summary li span {
+  color: #b3848f;
+  font-weight: 500;
+}
+
+.order-summary h3 {
+  text-align: right;
+  color: #b3848f;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .checkout {
+      padding: 15px;
+      max-width: 100%;
+
+  }
+
+  .order-summary {
+      margin-top: 15px;
+      padding: 15px;
+  }
+  .col-md-5 {
+    margin-top: 20px;
+  }
+}
+
+
+
+/* Custom Checkout Button Style */
+.checkout-btn {
+  background-color: #b3848f;
+  color: #fff;
+  border: 1px solid #b3848f; 
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+.checkout-btn:hover {
+  background-color: #875f68;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .checkout-btn {
+      font-size: 16px;
+      padding: 8px 16px;
+  }
+}

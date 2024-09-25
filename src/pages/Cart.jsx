@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { useNavigate } from 'react-router-dom';
+import '../components/Checkout/Checkout.css'
 import { useDispatch, useSelector } from "react-redux";
 import {
   addToCart,
@@ -15,6 +17,8 @@ const Cart = () => {
     (price, item) => price + item.qty * item.price,
     0
   );
+  const navigate = useNavigate();
+
   useEffect(() => {
     window.scrollTo(0, 0);
     // if(CartItem.length ===0) {
@@ -83,6 +87,12 @@ const Cart = () => {
                 <h4>Total Price :</h4>
                 <h3>${totalPrice}.00</h3>
               </div>
+              <button
+                className="checkout-btn"
+                onClick={() => navigate("/checkout")}
+              >
+                Proceed to Checkout
+              </button>
             </div>
           </Col>
         </Row>

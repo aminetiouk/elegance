@@ -5,6 +5,7 @@ import NavBarSection  from "./components/Navbar/Navbar";
 import FooterSection from "./components/Footer/Footer";
 import Loader from "./components/Loader/Loader";
 import LoginPage from "./pages/LoginPage";
+import Checkout from "./components/Checkout/Checkout";
 import Contact from "./components/Contact/Contact";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -38,6 +39,7 @@ function App() {
           <Route path="/shop/:id" element={<Product />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<LoginPage />} />
+          <Route path="/checkout" element={<Checkout />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <FooterSection />
